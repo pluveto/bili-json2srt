@@ -9,3 +9,8 @@ Requires:
 1. ffmpeg
 2. ffprobe
 
+This may be helpful
+
+```shell
+ffmpeg -i video.mp4 -vn -acodec libmp3lame -q:a 4 video.mp3
+```
